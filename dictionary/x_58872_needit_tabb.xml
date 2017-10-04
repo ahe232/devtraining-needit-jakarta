@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Tabb" max_length="40" name="x_58872_needit_tabb" type="collection">
+        <element default="0" label="close/open" max_length="40" name="co" type="integer"/>
+        <element choice="1" label="naive" max_length="2" name="naive_y_n" type="string">
+            <choice/>
+        </element>
+        <element choice="1" label="yes/no" max_length="40" name="y_n" type="integer">
+            <choice/>
+        </element>
+    </element>
+</database>
